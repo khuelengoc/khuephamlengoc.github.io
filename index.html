@@ -1,0 +1,928 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Khuelengoc - My Portfolio</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+  <!--cdncss link-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="css/lightbox.min.css">
+
+  <!--style sheet-->
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <!--svg icons-->
+  <svg>
+    <symbol id="twitter" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M22.991 3.95a1 1 0 0 0-1.51-.86a7.48 7.48 0 0 1-1.874.794a5.152 5.152 0 0 0-3.374-1.242a5.232 5.232 0 0 0-5.223 5.063a11.032 11.032 0 0 1-6.814-3.924a1.012 1.012 0 0 0-.857-.365a.999.999 0 0 0-.785.5a5.276 5.276 0 0 0-.242 4.769l-.002.001a1.041 1.041 0 0 0-.496.89a3.042 3.042 0 0 0 .027.439a5.185 5.185 0 0 0 1.568 3.312a.998.998 0 0 0-.066.77a5.204 5.204 0 0 0 2.362 2.922a7.465 7.465 0 0 1-3.59.448A1 1 0 0 0 1.45 19.3a12.942 12.942 0 0 0 7.01 2.061a12.788 12.788 0 0 0 12.465-9.363a12.822 12.822 0 0 0 .535-3.646l-.001-.2a5.77 5.77 0 0 0 1.532-4.202m-3.306 3.212a.995.995 0 0 0-.234.702c.01.165.009.331.009.488a10.824 10.824 0 0 1-.454 3.08a10.685 10.685 0 0 1-10.546 7.93a10.938 10.938 0 0 1-2.55-.301a9.48 9.48 0 0 0 2.942-1.564a1 1 0 0 0-.602-1.786a3.208 3.208 0 0 1-2.214-.935q.224-.042.445-.105a1 1 0 0 0-.08-1.943a3.198 3.198 0 0 1-2.25-1.726a5.3 5.3 0 0 0 .545.046a1.02 1.02 0 0 0 .984-.696a1 1 0 0 0-.4-1.137a3.196 3.196 0 0 1-1.425-2.673c0-.066.002-.133.006-.198a13.014 13.014 0 0 0 8.21 3.48a1.02 1.02 0 0 0 .817-.36a1 1 0 0 0 .206-.867a3.157 3.157 0 0 1-.087-.729a3.23 3.23 0 0 1 3.226-3.226a3.184 3.184 0 0 1 2.345 1.02a.993.993 0 0 0 .921.298a9.27 9.27 0 0 0 1.212-.322a6.681 6.681 0 0 1-1.026 1.524" />
+    </symbol>
+    <symbol id="github" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M10.07 20.503a1 1 0 0 0-1.18-.983c-1.31.24-2.963.276-3.402-.958a5.708 5.708 0 0 0-1.837-2.415a1.2 1.2 0 0 1-.167-.11a1 1 0 0 0-.93-.645h-.005a1 1 0 0 0-1 .995c-.004.815.81 1.338 1.141 1.514a4.44 4.44 0 0 1 .924 1.36c.365 1.023 1.423 2.576 4.466 2.376l.003.098l.004.268a1 1 0 0 0 2 0l-.005-.318c-.005-.19-.012-.464-.012-1.182M20.737 5.377a5.39 5.39 0 0 0 .09-.42a6.278 6.278 0 0 0-.408-3.293a1.002 1.002 0 0 0-.615-.58c-.356-.12-1.67-.357-4.184 1.25a13.87 13.87 0 0 0-6.354 0C6.762.75 5.455.966 5.102 1.079a.997.997 0 0 0-.631.584a6.3 6.3 0 0 0-.404 3.357c.025.127.051.246.079.354a6.27 6.27 0 0 0-1.256 3.83a8.422 8.422 0 0 0 .043.921c.334 4.603 3.334 5.984 5.424 6.459a4.591 4.591 0 0 0-.118.4a1 1 0 0 0 1.942.479a1.678 1.678 0 0 1 .468-.878a1 1 0 0 0-.546-1.745c-3.454-.395-4.954-1.802-5.18-4.899a6.61 6.61 0 0 1-.033-.738a4.258 4.258 0 0 1 .92-2.713a3.022 3.022 0 0 1 .195-.231a1 1 0 0 0 .188-1.025a3.388 3.388 0 0 1-.155-.555a4.094 4.094 0 0 1 .079-1.616a7.543 7.543 0 0 1 2.415 1.18a1.009 1.009 0 0 0 .827.133a11.777 11.777 0 0 1 6.173.001a1.005 1.005 0 0 0 .83-.138a7.572 7.572 0 0 1 2.406-1.19a4.04 4.04 0 0 1 .087 1.578a3.205 3.205 0 0 1-.169.607a1 1 0 0 0 .188 1.025c.078.087.155.18.224.268A4.122 4.122 0 0 1 20 9.203a7.039 7.039 0 0 1-.038.777c-.22 3.056-1.725 4.464-5.195 4.86a1 1 0 0 0-.546 1.746a1.63 1.63 0 0 1 .466.908a3.06 3.06 0 0 1 .093.82v2.333c-.01.648-.01 1.133-.01 1.356a1 1 0 1 0 2 0c0-.217 0-.692.01-1.34v-2.35a4.882 4.882 0 0 0-.155-1.311a4.256 4.256 0 0 0-.116-.416a6.513 6.513 0 0 0 5.445-6.424A8.697 8.697 0 0 0 22 9.203a6.13 6.13 0 0 0-1.263-3.826" />
+    </symbol>
+    <symbol id="facebook" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M15.12 5.32H17V2.14A26.11 26.11 0 0 0 14.26 2c-2.72 0-4.58 1.66-4.58 4.7v2.62H6.61v3.56h3.07V22h3.68v-9.12h3.06l.46-3.56h-3.52V7.05c0-1.05.28-1.73 1.76-1.73" />
+    </symbol>
+    <symbol id="messenger" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M11.991 1a10.614 10.614 0 0 0-11 10.7a10.461 10.461 0 0 0 3.414 7.866l.052 1.69A1.8 1.8 0 0 0 6.256 23a1.82 1.82 0 0 0 .726-.152L8.903 22a11.895 11.895 0 0 0 3.088.4a10.615 10.615 0 0 0 11.001-10.7a10.615 10.615 0 0 0-11-10.7m0 19.4a9.862 9.862 0 0 1-2.635-.35a1.799 1.799 0 0 0-1.196.092l-1.714.756l-.045-1.493A1.81 1.81 0 0 0 5.8 18.13a8.488 8.488 0 0 1-2.81-6.43a8.66 8.66 0 0 1 9-8.7a8.705 8.705 0 1 1 0 17.4m3.735-11.815l-2.313 2.755l-3.347-2.056a.998.998 0 0 0-1.289.21l-3.05 3.636a1 1 0 1 0 1.53 1.285l2.499-2.975l3.347 2.056a.998.998 0 0 0 1.289-.21l2.866-3.415a1 1 0 1 0-1.531-1.286" />
+    </symbol>
+    <symbol id="monitor" viewBox="0 0 24 24">
+      <path fill="#4ba1a7"
+        d="M19 2H5a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h2.64l-.58 1a2 2 0 0 0 0 2a2 2 0 0 0 1.75 1h6.46A2 2 0 0 0 17 21a2 2 0 0 0 0-2l-.59-1H19a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3M8.77 20L10 18h4l1.2 2ZM20 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16Zm0-3H4V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1Z" />
+    </symbol>
+    <symbol id="notes" viewBox="0 0 24 24">
+      <path fill="#4ba1a7"
+        d="M16 14H8a1 1 0 0 0 0 2h8a1 1 0 0 0 0-2m0-4h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2m4-6h-3V3a1 1 0 0 0-2 0v1h-2V3a1 1 0 0 0-2 0v1H9V3a1 1 0 0 0-2 0v1H4a1 1 0 0 0-1 1v14a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V5a1 1 0 0 0-1-1m-1 15a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6h2v1a1 1 0 0 0 2 0V6h2v1a1 1 0 0 0 2 0V6h2v1a1 1 0 0 0 2 0V6h2Z" />
+    </symbol>
+    <symbol id="laptop" viewBox="0 0 24 24">
+      <path fill="#4ba1a7"
+        d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1M6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16Z" />
+    </symbol>
+    <symbol id="menu" viewBox="0 0 24 24">
+      <path fill="black"
+        d="M4 6a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1m0 12a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1m7-7a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2z" />
+    </symbol>
+  </svg>
+
+  <header id="top" class="position-sticky top-0 start-0" style="z-index:10;">
+    <nav class="navbar bg-white fixed-top">
+      <div class="container-fluid">
+        <div class="d-flex align-items-center g-4">
+          <a class="navbar-brand d-flex" href="index.html">
+          </a>
+          <div class="icon px-5">
+            <a href="#" class="text-decoration-none">
+              <svg class="twitter" width="24" height="24">
+                <use xlink:href="#twitter"></use>
+              </svg>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <svg class="github" width="24" height="24">
+                <use xlink:href="#github"></use>
+              </svg>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <svg class="facebook" width="24" height="24">
+                <use xlink:href="#facebook"></use>
+              </svg>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <svg class="messenger" width="24" height="24">
+                <use xlink:href="#messenger"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navabar-toggler-icon">
+            <svg class="text-primary menu" width="32" height="32">
+              <use xlink:href="#menu"></use>
+            </svg>
+          </span>
+        </button>
+        <div class="offcanvas offcanvas-end text-white bg-black" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close btn-close-white ms-3" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav flex-grow-1 p-4">
+              <li class="nav-item">
+                <a class="nav-link active text-uppercase ls-4 text-white" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase ls-4 text-white" aria-current="page" href="index.html">Portfolio 
+                </a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase ls-4 text-white" aria-current="page" href="index.html">Single Portfolio 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase ls-4 text-white" aria-current="page" href="index.html">Single Post 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase ls-4 text-white" aria-current="page" href="index.html">Styles 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase ls-4 text-white" aria-current="page" href="index.html">Blog 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase ls-4 text-white" aria-current="page" href="index.html">Team 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase ls-4 text-white" aria-current="page" href="index.html">Contact 
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="banner rounded-4 p-5"
+        style="background-image: url(images/anh-banner.jpg); background-size: cover ; background-repeat: no-repeat; background-position: center;">
+        <div class="text-content text-white py-5 my-5">
+          <p class="fs-4">
+            R&D Lead/ Startup Ecosystem Enabler
+          </p>
+          <h1 class="display-1">
+            Hi, <br> It's Khue Pham Le Ngoc
+          </h1>
+        </div>
+        <div class="row text-uppercase bg-black rounded-4 p-3 mt-5">
+          <div class="col-md-3">
+            <div class="d-flex align-items-center gap-4">
+              <h2 class="display-2 text-light">
+                02+
+              </h2>
+              <p class="text-light-emphasis justify-content-center m-0 ls-4">
+                Years of <br> Leadership
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="d-flex align-items-center gap-4">
+              <h2 class="display-2 text-light">
+                150+
+              </h2>
+              <p class="text-light-emphasis justify-content-center m-0 ls-4">
+                Startups Supported
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="d-flex align-items-center gap-4">
+              <h2 class="display-2 text-light">
+                50+
+              </h2>
+              <p class="text-light-emphasis justify-content-center m-0 ls-4">
+                Ecosystem <br> Partners
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="d-flex align-items-center gap-4">
+              <h2 class="display-2 text-light">
+                50+
+              </h2>
+              <p class="text-light-emphasis justify-content-center m-0 ls-4">
+                Projects completed
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-5 ">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-3">
+          <div class="d-flex gap-4 align-items-start">
+            <div class="icon">
+              <svg class="text-primary monitor" width="50" height="50">
+                <use xlink:href="#monitor"></use>
+              </svg>
+            </div>
+            <div class="text-md-start">
+              <h5>
+                Entrepreneurial Mindset
+              </h5>
+              <p class="postf">
+                Driving growth through innovation, proactive problem-solving, and a startup-centric approach.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="d-flex gap-4 align-items-start">
+            <div class="icon">
+              <svg class="text-primary notes" width="50" height="50">
+                <use xlink:href="#notes"></use>
+              </svg>
+            </div>
+            <div class="text-md-start">
+              <h5>
+                R&D and Market Research
+              </h5>
+              <p class="postf">
+                Transforming complex data into actionable insights to ensure product-market fit and excellence.
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="d-flex gap-4 align-items-start">
+            <div class="icon">
+              <svg class="text-primary laptop" width="50" height="50">
+                <use xlink:href="#laptop"></use>
+              </svg>
+            </div>
+            <div class="text-md-start">
+              <h5>
+                Project Management
+              </h5>
+              <p class="postf">
+                Orchestrating high-impact projects and optimizing workflows from conception to professional execution.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      
+      <!-- Ô 1: EDUCATION -->
+      <div class="col-lg-4 mb-4">
+        <div class="h-100 bg-yellow p-4 rounded-4 shadow-hover d-flex flex-column" data-bs-toggle="modal" data-bs-target="#educationModal" style="cursor: pointer;">
+          <h3 class="fw-bold mb-4">Education</h3>
+          
+          <div class="flex-grow-1">
+            <p class="text-secondary small mb-1">2021 - 2024</p>
+            <h5 class="fw-bold text-dark">Nguyen Tat Thanh Gifted High School</h5>
+            <p class="postf fst-italic mb-1">English Major Class</p>            
+            <hr class="opacity-10">
+            
+            <p class="text-secondary small mb-1">2025 - 2028</p>
+            <h5 class="fw-bold text-dark">Foreign Trade University</h5>
+            <p class="postf fst-italic mb-1">Bachelors of International Business Economics</p>
+          </div>
+
+          <!-- Nút Click nằm dưới cùng -->
+          <div class="mt-4 pt-3 border-top border-dark border-opacity-10 text-end">
+            <small class="fw-bold text-dark-emphasis italic" style="font-size: 0.7rem; letter-spacing: 1px;">
+              CLICK TO EXPLORE MY ACADEMICS ⮕
+            </small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ô 2: R&D LEADERSHIP -->
+      <div class="col-lg-4 mb-4">
+        <div class="h-100 bg-green p-4 rounded-4 shadow-hover d-flex flex-column" data-bs-toggle="modal" data-bs-target="#leadershipModal" style="cursor: pointer;">
+          <h3 class="fw-bold mb-4">R&D Leadership</h3>
+          
+          <div class="flex-grow-1">
+            <p class="text-secondary small mb-1">2025 - 2026</p>
+            <h5 class="fw-bold text-dark">Head of R&D at TEC FTU</h5>
+            <p class="text-secondary small">Directing long-term vision, optimizing operational frameworks, and supervising major regional startup competitions.</p>
+            
+            <hr class="opacity-10">
+            
+            <p class="text-secondary small mb-1">2024 - 2025</p>
+            <h5 class="fw-bold text-dark">Member of R&D at TEC FTU</h5>
+            <p class="text-secondary small">Conducting market research, customer discovery, and investment evaluations.</p>
+          </div>
+
+          <div class="mt-4 pt-3 border-top border-dark border-opacity-10 text-end">
+            <small class="fw-bold text-black italic" style="font-size: 0.7rem; letter-spacing: 1px;">
+              CLICK FOR LEADERSHIP IMPACT ⮕
+            </small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ô 3: CONSULTING -->
+      <div class="col-lg-4 mb-4">
+        <div class="h-100 bg-teal p-4 rounded-4 shadow-hover d-flex flex-column" data-bs-toggle="modal" data-bs-target="#consultingModal" style="cursor: pointer;">
+          <h3 class="fw-bold mb-4">Consulting</h3>
+          
+          <div class="flex-grow-1">
+            <p class="text-secondary small mb-1">2024 - 2025</p>
+            <h5 class="fw-bold text-dark">Academic Consultant</h5>
+            <p class="text-secondary small">Designing advanced academic frameworks and conducting market research to support organization’s expansion into new certification markets.</p>
+          </div>
+
+          <div class="mt-4 pt-3 border-top border-dark border-opacity-10 text-end">
+            <small class="fw-bold text-teal italic" style="font-size: 0.7rem; letter-spacing: 1px;">
+              CLICK TO VIEW PROJECT DETAILS ⮕
+            </small>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- Kết thúc row -->
+  </div> <!-- Kết thúc container -->
+</section>
+    </div> <!-- Hết Row -->
+  </div> <!-- Hết Container -->
+</section>
+<section class="py-5">
+  <div class="container">
+    <!-- background-position: center right giúp đảm bảo mặt Khuê luôn hiện rõ ở bên phải -->
+    <div class="rounded-4 p-5 shadow"
+      style="background-image: url('images/anh-reference.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center right; min-height: 500px; display: flex; align-items: center;">
+      
+      <!-- row justify-content-start đưa cái hộp dạt sang bên trái -->
+      <div class="row justify-content-start w-100">
+        
+        <!-- col-lg-5: Chỉ chiếm 5/12 chiều ngang trang web (chưa tới một nửa) -->
+        <div class="col-lg-5 col-md-7"> 
+          <!-- opacity-75: Trong suốt hơn chút nữa cho nhẹ nhàng -->
+          <div class="bg-black text-white p-4 p-md-5 rounded-5 opacity-75 shadow-lg">
+            
+            <h2 class="fw-bold mb-4" style="letter-spacing: -1px; font-size: 1.8rem;">Skills & Expertise</h2>
+            
+            <!-- Dàn hàng dọc cho hẹp cái hộp lại -->
+            <div class="skill-list">
+              <!-- Nhóm 1 -->
+              <div class="mb-4">
+                <strong class="d-block mb-1 text-white border-bottom border-white border-opacity-25 pb-1">
+                    Professional Skills
+                </strong>
+                <em class="text-light-emphasis small italic">
+                  Market Research, Customer Discovery, Strategic Planning, Data Analysis, Project Operations.
+                </em>
+              </div>
+
+              <!-- Nhóm 2 -->
+              <div class="mb-4">
+                <strong class="d-block mb-1 text-white border-bottom border-white border-opacity-25 pb-1">
+                    Technical Tools
+                </strong>
+                <em class="text-light-emphasis small italic">
+                  Microsoft Excel (Advanced Specialist), Google Workspace, Project Management Softwares.
+                </em>
+              </div>
+
+              <!-- Nhóm 3 -->
+              <div>
+                <strong class="d-block mb-1 text-white border-bottom border-white border-opacity-25 pb-1">
+                    Languages & Interests
+                </strong>
+                <em class="text-light-emphasis small italic">
+                  English (IELTS 8.0), Korean (Basic), Innovation Tech, Startups, Problem Solving.
+                </em>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div> <!-- Hết row -->
+      
+    </div>
+  </div>
+</section>      
+<section class="portfolio py-5">
+    <div class="container">
+        
+        <!-- Header phần Project -->
+        <div class="row justify-content-center" data-aos="fade-up">
+            <div class="col-lg-8 text-center section-header mb-4">
+                <h4 class="fw-bold fs-2 txt-fx slide-up" style="line-height: 1.4;">
+                    With an entrepreneurial and ready-to-learn mindset, I'm excited to introduce to you my stepping-out-of-the-comfort-zone journey.
+                </h4>
+            </div>
+        </div>
+
+<div id="filters" class="button-group d-flex flex-wrap gap-3 justify-content-center py-5">
+  <a href="#" class="btn btn-primary is-checked" data-filter=".general">All</a>
+  <!-- Tab tập hợp tất cả những gì thuộc về KBS -->
+  <a href="#" class="btn btn-primary text-uppercase" data-filter=".kbs">KBS 2026</a>
+  <a href="#" class="btn btn-primary text-uppercase" data-filter=".startup-program">TEC Startup Program</a>
+  <a href="#" class="btn btn-primary text-uppercase" data-filter=".ttv">TTV 2026</a>
+</div>
+  
+<div class="grid p-0 row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  
+  <!-- 1. BÌA TỔNG KBS (Hiện ở Tab All và Tab KBS) -->
+  <div class="col mb-4 portfolio-item general kbs">
+      <div class="h-100 bg-white border rounded-4 shadow-hover overflow-hidden" 
+           data-bs-toggle="modal" data-bs-target="#kbsMainModal" style="cursor:pointer;">
+          <img src="images/knkn.jpg" class="img-fluid w-100" style="height:450px; object-fit:cover;">
+          <div class="p-3 text-center"><h6 class="fw-bold m-0 text-dark">KBS 2025: The Grand Journey</h6></div>
+      </div>
+  </div>
+
+  <!-- 2. KBS CHI TIẾT (ẨN ở All, hiện ở Tab KBS) -->
+  <div class="col mb-4 portfolio-item kbs">
+      <div class="h-100 bg-white border rounded-4 shadow-hover overflow-hidden" data-bs-toggle="modal" data-bs-target="#modalRound1" style="cursor:pointer;">
+          <img src="images/kbs-v1.jpg" class="img-fluid w-100" style="height: 450px; object-fit:cover;">
+          <div class="p-3 text-center"><h6 class="fw-bold m-0 text-dark">KBS 2025: 1st Round</h6></div>
+      </div>
+  </div>
+  <div class="col mb-4 portfolio-item kbs">
+      <div class="h-100 bg-white border rounded-4 shadow-hover overflow-hidden" data-bs-toggle="modal" data-bs-target="#modalFair" style="cursor:pointer;">
+          <img src="images/kbs-v2.jpg" class="img-fluid w-100" style="height:450px; object-fit:cover;">
+          <div class="p-3 text-center"><h6 class="fw-bold m-0 text-dark">Kawai Startup Fair</h6></div>
+      </div>
+  </div>
+  <div class="col mb-4 portfolio-item kbs">
+      <div class="h-100 bg-white border rounded-4 shadow-hover overflow-hidden" data-bs-toggle="modal" data-bs-target="#modalFinale" style="cursor:pointer;">
+          <img src="images/kbs-v3.jpg" class="img-fluid w-100" style="height:450px; object-fit:cover;">
+          <div class="p-3 text-center"><h6 class="fw-bold m-0 text-dark">KBS 2025: The Grand Finale</h6></div>
+      </div>
+  </div>
+
+  <!-- 3. STARTUP PROGRAM (Hiện ở Tab All và Tab SP) -->
+  <div class="col mb-4 portfolio-item general startup-program">
+      <div class="h-100 bg-white border rounded-4 shadow-hover overflow-hidden" 
+           data-bs-toggle="modal" data-bs-target="#spModal" style="cursor:pointer;">
+          <img src="images/sp.jpg" class="img-fluid w-100" style="height:450px; object-fit:cover;">
+          <div class="p-3 text-center"><h6 class="fw-bold m-0 text-decoration-none">TEC Startup Program 2025</h6></div>
+      </div>
+  </div>
+
+  <!-- 4. THỬ THÁCH VIỆT 2026 (Hiện ở Tab All và Tab TTV) -->
+  <div class="col mb-4 portfolio-item general ttv">
+      <div class="h-100 bg-white border rounded-4 shadow-hover overflow-hidden" 
+           data-bs-toggle="modal" data-bs-target="#ttvModal" style="cursor:pointer;">
+          <img src="images/z7094453210900_000_deecd71d137b75cfef10f95e312a0706.jpg" class="img-fluid w-100" style="height:450px; object-fit:cover;">
+          <div class="p-3 text-center"><h6 class="fw-bold m-0 text-d">TTV 2026: In sync to shine out </h6></div>
+      </div>
+  </div>
+
+</div>
+</div>  <section>
+    <div class="container">
+      <div class="text-center pt-5">
+        <h2 class="display-3">
+  </section>
+
+  <section class="p-5 bg-yellow py-5">
+    <div class="container">
+      <div class="row justify-content-center my-5">
+        <div class="col-md-5">
+          <h6>
+            Quick Contact
+          </h6>
+          <h2 class="display-3">
+            Leave a Message
+          </h2>
+          <p>
+            Feel free to contact me!
+          </p>
+        </div>
+        <div class="col-md-5">
+          <div class="mb-3">
+            <input type="name" class="form-control p-3 rounded-4" name="name" id="name" aria-describedby="nameHelpId"
+              placeholder="Your name" />
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control p-3 rounded-4" name="email" id="email" aria-describedby="emailHelpId"
+              placeholder="Your email" />
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control p-3 rounded-4" name="Your message" placeholder="Your message" id="message" rows="3"></textarea>
+          </div>
+          <div class="d-grid">
+            <button type="button" class="btn btn-dark btn-lg text-uppercase rounded-4">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="bg-black text-white py-5">
+    <div class="container-sm">
+      <div class="row g-md-5 my-5">
+        <div class="col-md-4">
+          <div class="info-box">
+            <p class="py-4">
+              Subscribe to newsletter to get some updates related with branding, designs and more.
+            </p>
+            <div class="social-links">
+              <svg class="skype" width="24" height="24">
+                <use xlink:href="#skype"></use>
+              </svg>
+              <svg class="snapchat" width="24" height="24">
+                <use xlink:href="#snapchat"></use>
+              </svg>
+              <svg class="telegram" width="24" height="24">
+                <use xlink:href="#telegram"></use>
+              </svg>
+              <svg class="tumblr" width="24" height="24">
+                <use xlink:href="#tumblr"></use>
+              </svg>
+              <svg class="twitter" width="24" height="24">
+                <use xlink:href="#twitter"></use>
+              </svg>
+              <svg class="whatsapp" width="24" height="24">
+                <use xlink:href="#whatsapp"></use>
+              </svg>
+              <svg class="github" width="24" height="24">
+                <use xlink:href="#github"></use>
+              </svg>
+              <svg class="facebook" width="24" height="24">
+                <use xlink:href="#facebook"></use>
+              </svg>
+              <svg class="messenger" width="24" height="24">
+                <use xlink:href="#messenger"></use>
+              </svg>
+              <svg class="behance" width="24" height="24">
+                <use xlink:href="#behance"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="row">
+            <div class="col-6">
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-decoration-none text-white" href="index.html">Home</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none text-white" href="#">About</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none text-white" href="index.html">Team</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none text-white" href="index.html">Portfolio</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <h6>
+                <a class="text-decoration-none text-white" href="index.html">Blog</a>
+              </h6>
+              <h6>
+                <a class="text-decoration-none text-white" href="index.html">Contact</a>
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <p>
+            Just feel free to contact if you wanna collaborate with me, or simply have a conversation.
+          </p>
+          <h3>
+            <a href="mailto:contact@yourwebsite.com" class="text-white text-decoration-none">phamlengockhue@gmail.com</a>
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <p>©2026 Khuelengoc </p>
+      </div>
+    </div>
+  </footer>
+  <!-- ==========================================
+     3 MODALS CHI TIẾT (ẨN)
+     ========================================== -->
+
+<!-- 1. Detail Education -->
+<div class="modal fade" id="educationModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content rounded-5 border-0 shadow-lg overflow-hidden bg-white">
+      <div class="modal-body p-0">
+        <div class="row g-0">
+          <div class="col-md-5 d-none d-md-flex flex-column" style="min-height: 550px;">
+            <div style="height: 50%; background: #eee url('images/present.jpg') no-repeat center/cover; position: relative;">
+                <span class="position-absolute bottom-0 start-0 m-3 badge bg-primary">FTU-er</span>
+            </div>
+            <div style="height: 50%; background: #ddd url('images/high-school.jpg') no-repeat center/cover; position: relative; border-top: 2px solid white;">
+                <span class="position-absolute bottom-0 start-0 m-3 badge bg-secondary">CYB-er</span>
+            </div>
+          </div>
+          <div class="col-md-7 p-5 bg-white position-relative">
+            <button type="button" class="btn-close position-absolute top-0 end-0 m-4" data-bs-dismiss="modal"></button>
+            <h2 class="fw-bold mb-4" style="color:#222; text-transform:none;">Academic Performance</h2>
+            <div class="custom-scroll" style="max-height: 400px; overflow-y: auto;">
+              <h5>Foreign Trade University</h5>
+              <ul class="text-secondary small">
+                <li>International Business Economics Student | Cumulative GPA: 3.88 / 4.0.</li>
+                <li><strong>Type A Academic Scholarship</strong> recipient for two consecutive semesters.</li>
+              </ul>
+              <hr class="opacity-10 my-4">
+              <h5>Nguyen Tat Thanh Gifted High School</h5>
+              <ul class="text-secondary small">
+                <li>The <strong>fourth prize</strong> in National English Competition for Gifted students in two consecutive years.</li>
+                <li>The <strong>first prize</strong> in Provincial English Competition for Gifted students.</li>
+                <li>The <strong>champion</strong> of Provincial English Speaking Competition.</li>
+                <li>IELTS Band Score: <strong>8.0</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 2. Detail Leadership -->
+<div class="modal fade" id="leadershipModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content rounded-5 border-0 shadow-lg overflow-hidden bg-white">
+      <div class="modal-body p-0">
+        <div class="row g-0">
+          <div class="col-md-5 d-none d-md-flex flex-column" style="min-height: 550px;">
+            <div style="background: #1b4d3e url('images/kbs-finale.jpg') no-repeat center/cover; min-height:600px;"></div>
+          </div>
+          <div class="col-md-7 p-5 bg-white position-relative">
+            <button type="button" class="btn-close position-absolute top-0 end-0 m-4" data-bs-dismiss="modal"></button>
+            <h2 class="fw-bold mb-4" style="color:#1b4d3e; text-transform:none;">Innovation Enthusiast</h2>
+            <div class="custom-scroll" style="max-height: 400px; overflow-y: auto;">
+              <h5>Head of R&D Department at TEC FTU</h5>
+              <ul class="text-secondary small">
+                <li>Led a team of 09 members; achieved <strong>20% performance increase</strong> in operational output.</li>
+                <li>Strategic outreach to <strong>150+ startups</strong> and 50+ ecosystem partners.</li>
+              </ul>
+              <hr class="opacity-10 my-4">
+              <h5>Member of R&D Department at TEC FTU </h5>
+              <ul class="text-secondary small">
+                <li>Part of <strong>Kawai Business Startup 2025</strong>'s organizing commitee</li>
+                <li>Analyzed <strong>28 depth-interviews</strong> and 100+ target surveys.</li>
+                <li>Core members strategizing the competition's <strong>Incubation Format</strong> with <strong>07 intensive training sessions</strong>, <strong> 03 Sharing Sessions</strong>, and <strong>01 Weekathon Session</strong></li>
+                <li>Formulated <strong>05 Investment Memos</strong> for due diligence.</li>
+                <li>Partnership Team Member of TEC Startup Program 2025</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 3. Detail Consulting -->
+<div class="modal fade" id="consultingModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content rounded-5 border-0 shadow-lg overflow-hidden bg-white">
+      <div class="modal-body p-0">
+        <div class="row g-0">
+          <div class="col-md-5 d-none d-md-block" 
+               style="background: #008080 url('images/images.png') no-repeat center/cover; min-height: 550px;">
+          </div>
+          <div class="col-md-7 p-5 bg-white position-relative">
+            <button type="button" class="btn-close position-absolute top-0 end-0 m-4" data-bs-dismiss="modal"></button>
+            <h2 class="fw-bold mb-4" style="color:#000e0e; text-transform:none;">Academic Consulting</h2>
+            <div class="custom-scroll" style="max-height: 400px; overflow-y: auto;">
+              <h5>Strategy & Expansion</h5>
+              <ul class="text-secondary small">
+                <li>Pioneered market research to shift center focus from IT skills to <strong>Global English Certifications</strong>.</li>
+                <li>Advised on curriculum mapping and international education branding.</li>
+              </ul>
+              <hr class="opacity-10 my-4">
+              <h5>Curriculum Development</h5>
+              <ul class="text-secondary small">
+                <li>Designed <strong>02 Specialized IELTS Frameworks</strong> for accelerated training results.</li>
+                <li>Synthesized academic materials with innovative R&D methodologies.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- =====================================
+     PROJECT MODALS CHI TIẾT
+====================================== -->
+
+<!-- Modal KBS Grand Journey -->
+<div class="modal fade" id="kbsMainModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content rounded-5 border-0 shadow-lg overflow-hidden bg-white">
+      <div class="modal-body p-0">
+        <div class="row g-0">
+          <!-- Ảnh bên trái (Bìa KBS cực ngầu) -->
+          <div class="col-md-5 d-none d-md-block" style="background: url('images/journey.jpg') center/cover; min-height: 600px;"></div>
+          <!-- Nội dung bên phải -->
+          <div class="col-md-7 p-5">
+            <button type="button" class="btn-close position-absolute top-0 end-0 m-4" data-bs-dismiss="modal"></button>
+            <h2 class="fw-bold mb-4" style="color:#000;">KBS 2025: The 20th Anniversary</h2>
+            <div class="custom-scroll" style="max-height: 400px; overflow-y: auto;">
+              <h5 class="fw-bold text-dark">The nationwide biggest business idea competition</h5>
+              <p class="text-secondary small">Kawai Business Startup 2025 was successfully organized to provide a professional environment and significant development opportunities for the young generation to ignite their groundbreaking startup ideas and access essential resources for sustainable growth through funding and networking. Notably, the year 2025 marks a major milestone with a 20-year journey of KBS, reflecting the team’s unwavering mission and vision, embodied in the motto: “Different ideas. One target.</li>
+                <!-- Dòng kẻ ngăn cách -->
+<hr class="my-4 opacity-10">
+
+<div class="extra-info text-start">
+    <h5 class="fw-bold text-dark mb-3" style="text-transform: none;">Impact & Recognition</h5>
+    
+    <div class="row mb-4">
+        <!-- 300 Apps -->
+        <div class="col-6">
+            <p class="mb-0 text-secondary" style="font-size: 0.9rem;">
+                <strong class="text-dark d-block" style="font-size: 1.2rem;">300+</strong>
+                Global Applications (15% International)
+            </p>
+        </div>
+        <!-- 4 Billion VND -->
+        <div class="col-6">
+            <p class="mb-0 text-secondary" style="font-size: 0.9rem;">
+                <strong class="text-dark d-block" style="font-size: 1.2rem;">4 Billion+</strong>
+                VND Total Prize Pool
+            </p>
+        </div>
+    </div>
+
+    <!-- Bullet points về Partners & Winners -->
+    <ul class="list-unstyled text-secondary small" style="line-height: 1.8;">
+        <li class="mb-2">
+            <i class="text-dark fw-bold">● Ecosystem Partners:</i> 
+            Collaborated with top-tier VCs, tech corporations, and mentorship networks nationwide.
+        </li>
+        <li>
+            <i class="text-dark fw-bold">● Distinguished Winners:</i> 
+            High-profile awards were presented to <span class="italic text-dark fw-bold">Thinkmay, RePaws, Việt Ngoạn Ký, UNI Reader, and MemCab.com.</span>
+        </li>
+    </ul>
+</div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal ROUND 1 -->
+<div class="modal fade" id="modalRound1" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content rounded-5 border-0 shadow-lg overflow-hidden bg-white">
+      <div class="modal-body p-0">
+        <div class="row g-0">
+          <div class="col-md-5 d-none d-md-block" style="background: url('images/incubation.jpg') center/cover; min-height: 550px;"></div>
+          <div class="col-md-7 p-5 text-start">
+            <button type="button" class="btn-close position-absolute top-0 end-0 m-4" data-bs-dismiss="modal"></button>
+            <h2 class="fw-bold mb-4">Startup Companion and Intensive Training</h2>
+            <div class="custom-scroll" style="max-height: 450px; overflow-y: auto;">
+                <li>Validated 100+ business models through empirical research.</li>
+                <li>Executed 28 in-depth interviews and 100+ subject surveys to refine the overall incubation program.</li>
+                <li>Built comprehensive "Customer Personas" for all KBS participants to identify real-world market gaps.</li>
+                <li>Became Startup Consultant of 04 teams in KBS 2026 TOP 30 </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal STARTUP FAIR -->
+<div class="modal fade" id="modalFair" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content rounded-5 border-0 shadow-lg overflow-hidden bg-white">
+      <div class="modal-body p-0">
+        <div class="row g-0">
+          <div class="col-md-5 d-none d-md-block" style="background: url('images/fair.jpg') center/cover; min-height: 550px;"></div>
+          <div class="col-md-7 p-5 text-start">
+            <button type="button" class="btn-close position-absolute top-0 end-0 m-4" data-bs-dismiss="modal"></button>
+            <h2 class="fw-bold mb-4">Kawai Startup Fair</h2>
+            <div class="custom-scroll" style="max-height: 450px; overflow-y: auto;">
+              <h5>Ecosystem Integration</h5>
+              <p class="text-secondary small italic">Optimizing network synergy for Northern Vietnam's largest startup exhibition.</p>
+              <ul class="text-secondary small" style="line-height: 1.8;">
+                <li>Facilitated advisory systems (Mentoring) between top-tier industry experts and ambitious startup founders.</li>
+                <li>Directly managed exhibition of KBS 2026 TOP 10's Prototype and Product, and fostered collaboration with various VCs and Accelerators.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal GRAND FINALE -->
+<div class="modal fade" id="modalFinale" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content rounded-5 border-0 shadow-lg overflow-hidden bg-black">
+      <div class="modal-body p-0">
+        <div class="row g-0">
+          <div class="col-md-5 d-none d-md-block" style="background: url('images/final.jpg') center/cover; min-height: 550px;"></div>
+          <div class="col-md-7 p-5 text-start text-black" style="background:#fdfbfb;">
+            <button type="button" class="btn-close btn-close-black position-absolute top-0 end-0 m-4" data-bs-dismiss="modal"></button>
+            <h2 class="fw-bold mb-4">Grand Finale</h2>
+            <div class="custom-scroll" style="max-height: 450px; overflow-y: auto;">
+              <h5>Appraisal & Investment Valuation</h5>
+              <ul class="text-black opacity-75 small" style="line-height: 1.8;">
+                <li>Synthesized academic research into <strong>05 Professional Investment Memos</strong> to facilitate the final due diligence</li>
+                <li>Formulated high-level business cases tailored for Top 05 Finalists.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal TEC Startup Program -->
+<div class="modal fade" id="spModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content rounded-5 border-0 shadow-lg overflow-hidden bg-white">
+      <div class="modal-body p-0">
+        <div class="row g-0">
+          <div class="col-md-5 d-none d-md-block" style="background: url('images/sp-i.jpg') center/cover; min-height: 600px;"></div>
+          <div class="col-md-7 p-5">
+            <button type="button" class="btn-close position-absolute top-0 end-0 m-4" data-bs-dismiss="modal"></button>
+            <h2 class="fw-bold mb-4" style="color:#01080f;">Bootcamp & Incubator Design</h2>
+            <div class="custom-scroll" style="max-height: 400px; overflow-y: auto;">
+              <h5 class="fw-bold text-dark">High-intensity Training Operations</h5>
+              <p class="text-secondary small">An intensive incubation bootcamp by TEC FTU, guiding early-stage startups from ideation to product development and market readiness</p>
+              <ul class="text-secondary small">
+                <li><strong>Curriculum Development:</strong> Designed <strong>07 specialized workshops</strong> on technical competencies: Business Model Canvas, Pitching, and GTM Strategy.</li>
+                <li><strong>Individual Mentoring:</strong> Operated "Advisory Boards" and Mentoring systems to answer real-time pain points of startups throughout the bootcamp.</li>
+                <li><strong>Result:</strong> Empowered teams to move from 0 to 1, validating products through rigorous R&D frameworks.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Tuyển Thành Viên (TTV 2026) - BẢN NỀN TRẮNG -->
+<div class="modal fade" id="ttvModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content rounded-5 border-0 shadow-lg overflow-hidden bg-white">
+      <div class="modal-body p-0">
+        <div class="row g-0">
+          
+          <!-- CỘT TRÁI: ẢNH (GIỮ NGUYÊN) -->
+          <div class="col-md-5 d-none d-md-block" style="background: url('images/ttv-i.jpg') center/cover; min-height: 550px;"></div>
+          
+          <!-- CỘT PHẢI: CHỮ (Sửa từ Đỏ sang Trắng) -->
+          <div class="col-md-7 p-5 position-relative bg-white">
+            <!-- Nút X (đổi btn-close-white thành btn-close mặc định) -->
+            <button type="button" class="btn-close position-absolute top-0 end-0 m-4" data-bs-dismiss="modal" aria-label="Close"></button>
+            
+            <!-- Tiêu đề (Đổi về màu Đỏ đậm của TEC để làm điểm nhấn trên nền trắng) -->
+            <h2 class="fw-bold mb-4" style="color: #336699; text-transform:none;">TTV 2026: Search for Elite</h2>
+            
+            <div class="custom-scroll" style="max-height: 400px; overflow-y: auto; padding-right: 15px;">
+              <h5 class="fw-bold text-dark">Strategic Recruitment Operations</h5>
+              <p class="text-secondary small">Leading the vetting process for the next generation of Innovation Catalysts.</p>
+              
+              <!-- Đổi màu list chữ thành text-secondary (xám đậm) cho dịu mắt -->
+              <ul class="text-secondary small mt-4" style="line-height: 1.8; text-transform: none;">
+                <li><strong>Process Design:</strong> Directing the 04-stage recruitment journey to select candidates with strong entrepreneurial mindsets and R&D potential.</li>
+                <li><strong>Technical Evaluation:</strong> Designing rigorous testing frameworks focused on <strong>Market Research capacity</strong> and <strong>Data Discovery</strong> for the R&D candidates.</li>
+                <li><strong>Leadership Mentor:</strong> Supervised the orientation and internal training to ensure new members align with TEC's vision of supporting 150+ startups.</li>
+                <li><strong>Result:</strong> Successfully onboarding elite individuals to sustain a 20% growth in organizational output for the 2025-2026 term.</li>
+              </ul>
+              
+              <!-- Trang trí nhẹ phía cuối cho chuyên nghiệp -->
+              <div class="mt-5 p-3 rounded-4" style="background: #f8f9fa; border-left: 4px solid #336699;">
+                <p class="m-0 small text-dark"><em>"Choosing the right talent is the first step of innovation."</em></p>
+              </div>
+            </div>
+
+          </div> <!-- Hết cột phải -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>  <!-- Bootstrap JavaScript Libraries -->
+  <script src="js/jquery-1.11.0.min.js"></script> <!-- jquery file-->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> <!--cdn link-->
+  <script src="js/plugins.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
